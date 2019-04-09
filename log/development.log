@@ -201,3 +201,6 @@ Started GET "/hello" for 72.66.62.59 at 2019-04-09 01:12:37 +0000
 Processing by StaticController#hello as HTML
   Rendering static/hello.html.erb within layouts/application
   Rendered static/hello.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 435ms (Views: 434.2ms | ActiveRecord: 0.0ms)
+
+
