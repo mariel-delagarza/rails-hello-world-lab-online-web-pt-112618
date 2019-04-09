@@ -197,3 +197,7 @@ app/controllers/static_controller.rb:4:in `hello'
   Rendering /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
   Rendered /usr/local/rvm/gems/ruby-2.6.1/gems/actionpack-5.0.7.1/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (30.0ms)
+Started GET "/hello" for 72.66.62.59 at 2019-04-09 01:12:37 +0000
+Processing by StaticController#hello as HTML
+  Rendering static/hello.html.erb within layouts/application
+  Rendered static/hello.html.erb within layouts/application (0.4ms)
